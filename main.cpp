@@ -105,8 +105,13 @@ int main(int argc, char** argv) {
     
     glutSetWindow(hwnd);
     glutReshapeWindow(400, 400);
-        
-    glutFullScreen();
+    
+    //glutHideWindow();
+    //glutIconifyWindow();
+    //glutShowWindow();
+    //glutFullScreen();
+    
+    glutSetCursor(GLUT_CURSOR_DESTROY);
     
     glutMainLoop();
     
